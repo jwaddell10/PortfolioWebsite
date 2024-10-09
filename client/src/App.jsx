@@ -18,15 +18,15 @@ function App() {
 					element: <Home />,
 				},
 				{
-					path: "/therapy-worksheets",
+					path: "/about",
 					element: <About />,
 				},
 				{
-					path: "/log-in",
+					path: "/portfolio",
 					element: <Portfolio />,
 				},
 				{
-					path: "/sign-up",
+					path: "/contact",
 					element: <Contact />,
 				},
 			],
