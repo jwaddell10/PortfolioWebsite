@@ -1,8 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import NavBar from "./NavBar";
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import Portfolio from "./components/Portfolio";
 import Contact from "./Contact";
 import "./App.css";
 
@@ -11,7 +11,6 @@ function App() {
 		{
 			path: "/",
 			element: <NavBar />,
-			// loader: rootLoader,
 			children: [
 				{
 					path: "/",

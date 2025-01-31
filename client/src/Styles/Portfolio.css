@@ -1,0 +1,14 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+img { 
+    width: 50%;
+}
+
+.project-and-description {
+    display: flex;
+}

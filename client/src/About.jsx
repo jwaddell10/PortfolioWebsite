@@ -15,7 +15,7 @@ export default function About() {
 				breakthrough all draw me to programming. <br />
 				<br />
 				When I'm not coding, I enjoy playing tennis, pickleball, or
-				chess.
+				chess
 			</p>
 		</>
 	);

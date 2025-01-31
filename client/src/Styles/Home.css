@@ -1,0 +1,27 @@
+main {
+    background-color: #343b3f;
+    height: 100vh;
+    text-align: center;
+}
+
+.main {
+    color: whitesmoke;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin: 10px;
+    text-align: center;
+}
+
+.socials-icon {
+    /* background-color: #101419; */
+    margin: 10px;
+}
+
+svg {
+    height: 2rem;
+}
