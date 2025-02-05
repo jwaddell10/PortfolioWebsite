@@ -1,6 +1,7 @@
 import { useNavigate, Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import XIcon from "@mui/icons-material/X";
+// import { Resume } from "../Resume";
 import "../Styles/Home.css";
 
 export default function Home() {

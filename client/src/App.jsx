@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./About";
 import Portfolio from "./components/Portfolio";
-import Contact from "./Contact";
+import Resume from "./Resume";
 import "./App.css";
 
 function App() {
@@ -25,9 +25,13 @@ function App() {
 					element: <Portfolio />,
 				},
 				{
-					path: "/contact",
-					element: <Contact />,
-				},
+					path: "/resume", 
+					element: <Resume />
+				}
+				// {
+				// 	path: "/contact",
+				// 	element: <Resume />,
+				// },
 			],
 		},
 	]);

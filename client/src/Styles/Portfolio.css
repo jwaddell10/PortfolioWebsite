@@ -2,13 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
-}
-
-img { 
     width: 50%;
 }
 
+img { 
+    width: 100%;
+}
+
 .project-and-description {
-    display: flex;
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.project-title-and-description {
+    text-align: end;
+}
+
+.project-title {
+    font-size: 2rem;
 }
