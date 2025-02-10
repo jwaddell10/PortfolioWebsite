@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 75%;
+    gap: 5vh;
 }
 
 img { 
@@ -11,13 +12,15 @@ img {
 
 .project-and-description {
     display: grid;
-    justify-items: end;
+    /* justify-items: start; */
     grid-template-columns: 1fr 1fr;
-    color: white;
+    color: #FFFFFF;
+    gap: 5vw;
+    margin: 20px;
 }
 
 .project-title-and-description {
-    text-align: end;
+    text-align: start;
 }
 
 .project-title {

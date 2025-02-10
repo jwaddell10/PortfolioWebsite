@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./About";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import Resume from "./Resume";
 import "./App.css";
 
@@ -21,8 +21,8 @@ function App() {
 					element: <About />,
 				},
 				{
-					path: "/portfolio",
-					element: <Portfolio />,
+					path: "/projects",
+					element: <Projects />,
 				},
 				{
 					path: "/resume", 

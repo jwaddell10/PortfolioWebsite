@@ -1,6 +1,10 @@
+import FCCCat from "./assets/FCCCat.png";
+import TherapyVault from "./assets/TherapyVault.png";
+import "./Styles/About.css";
+
 export default function About() {
 	return (
-		<>
+		<body className="about-me-container">
 			<h1>About me</h1>
 			<p>
 				My Web Development journey began in August 2022 when I enrolled
@@ -17,6 +21,16 @@ export default function About() {
 				When I'm not coding, I enjoy playing tennis, pickleball, or
 				chess
 			</p>
-		</>
+			<div className="project-container">
+				<div className="first-project">
+					<h1>My first project</h1>
+					<img src={FCCCat} alt="" />
+				</div>
+				<div className="recent-project">
+					<h1>Most recent work</h1>
+					<img src={TherapyVault} alt="" />
+				</div>
+			</div>
+		</body>
 	);
 }

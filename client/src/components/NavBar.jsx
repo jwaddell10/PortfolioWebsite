@@ -11,7 +11,7 @@ export default function NavBar() {
 				{/* </nav> */}
 				<nav className="navbar-home">
 					<Link to="/about">About</Link>
-					<Link to="/portfolio">Portfolio</Link>
+					<Link to="/projects">Projects</Link>
 					<Link to="/contact">Contact</Link>
 				</nav>
 				{/* <nav className="navbar-home">

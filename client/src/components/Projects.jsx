@@ -5,9 +5,9 @@ import Waldo from "../assets/Waldo.png";
 import Chatterzone from "../assets/Chatterzone.png";
 import RenalDietRecipes from "../assets/RenalDietRecipes.png";
 import MemoryCard from "../assets/MemoryCard.png";
-import "../Styles/Portfolio.css";
+import "../Styles/Projects.css";
 
-export default function Portfolio() {
+export default function Projects() {
 	// const navigate = useNavigate();
 
 	// const routeChange = (routePath) => {
@@ -22,10 +22,10 @@ export default function Portfolio() {
 				display: "flex",
 				alignItems: "center",
 				flexDirection: "column",
-				backgroundColor: "#343b3f",
+				backgroundColor: "#30343F",
 			}}
 		>
-			<h1 style={{ textAlign: "center", color: "whitesmoke" }}>
+			<h1 style={{ textAlign: "center", color: "whitesmoke", fontSize: "3rem" }}>
 				Projects
 			</h1>
 			<ul className="project-container">
@@ -60,7 +60,7 @@ export default function Portfolio() {
 						<p className="project-description">
 							Fun game based on classic Where's Waldo game. Users
 							can submit scores to leaderboard and see if they
-							reach the high score.
+							reach the high score.x
 						</p>
 					</div>
 				</li>
@@ -87,9 +87,7 @@ export default function Portfolio() {
 				<li className="project-and-description">
 					<Link
 						onClick={() =>
-							window.open(
-								`https://memory-card-fawn.vercel.app/`
-							)
+							window.open(`https://memory-card-fawn.vercel.app/`)
 						}
 					>
 						<img src={MemoryCard} alt="MemoryCard" />
@@ -122,7 +120,7 @@ export default function Portfolio() {
 						</p>
 					</div>
 				</li>
-				{/* <li className="project-and-description">
+				<li className="project-and-description">
 					<Link
 						onClick={() =>
 							window.open(
@@ -135,10 +133,11 @@ export default function Portfolio() {
 					<div className="project-title-and-description">
 						<h1 className="project-title">Chatterzone</h1>
 						<p className="project-description">
-							Chat application featuring authentication using PassportJS. Built 
+							Chat application featuring authentication using
+							PassportJS. Built with an eye for simple design
 						</p>
 					</div>
-				</li> */}
+				</li>
 			</ul>
 		</div>
 	);
